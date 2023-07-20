@@ -5,9 +5,12 @@ def is_prime(number):
     while (i < number):
         if (number % i == 0):
             count += 1
-            i += 1
+        i = i + 1
 
     if (count == 0):
         return "True"
-    else:
-        return "False"
+
+    return "False"
+
+
+print(is_prime(24))
