@@ -8,7 +8,7 @@ def fibonacci_sequence(n):
             list.append(0)
             list.append(1)
         else:
-            i = 3
+            i = 2
             list.append(0)
             list.append(1)
             while (i < n):
@@ -18,4 +18,4 @@ def fibonacci_sequence(n):
     return list
 
 
-print(fibonacci_sequence(20))
+print(fibonacci_sequence(1))
