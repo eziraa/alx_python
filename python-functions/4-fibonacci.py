@@ -1,10 +1,10 @@
 #!/bin/bash/python3
 def fibonacci_sequence(n):
     list = []
-    if n > -1:
-        if (n == 0):
+    if n > 0:
+        if (n == 1):
             list.append(0)
-        elif (n == 1):
+        elif (n == 2):
             list.append(0)
             list.append(1)
         else:
@@ -16,3 +16,6 @@ def fibonacci_sequence(n):
                 i = i + 1
 
     return list
+
+
+print(fibonacci_sequence(20))
