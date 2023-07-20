@@ -1,16 +1,10 @@
 #!/bin/bash/python3
 def pow(a, b):
-    result = 1.0
     if b == 0:
         return 1
-    elif (b > 0):
-        i = 0
-        while (i < b):
-            result = result * a
-            i += 1
+    elif b == 1:
+        return a
+    elif b < 0:
+        return 1 / pow(a, -b)
     else:
-        i = 0
-        while (i > b):
-            result = result / a
-            i -= 1
-    return result
+        return a * pow(a, b - 1)
