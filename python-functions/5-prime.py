@@ -11,6 +11,3 @@ def is_prime(number):
         return "True"
 
     return "False"
-
-
-print(is_prime(24))
