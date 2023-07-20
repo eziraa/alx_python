@@ -1,3 +1,3 @@
 #!/bin/bash/python3
-def convert_to_ceslius(fahrenheit):
+def convert_to_celsius(fahrenheit):
     return (fahrenheit - 32) * 5 / 9
