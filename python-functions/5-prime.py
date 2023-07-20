@@ -9,5 +9,5 @@ def is_prime(number):
 
     if (count == 0):
         return "True"
-
-    return "False"
+    else:
+        return "False"
