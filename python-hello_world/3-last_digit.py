@@ -8,7 +8,7 @@ else:
     last = ((-1 * number) % 10) * -1
 msg = ""
 if (last == 0):
-    msg = "is zero"
+    msg = "is 0"
 elif (last > 5):
     msg = "is greater than 5"
 else:
