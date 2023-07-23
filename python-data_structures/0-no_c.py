@@ -9,6 +9,3 @@ def no_c(string):
             list += i
 
     return list
-
-
-print(str(no_c('cdf')))
