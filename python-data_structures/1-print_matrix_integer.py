@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-
-def print_matrix_integer(matrix=None):
-    if matrix is None:
-        matrix = [[]]
-
+def print_matrix_integer(matrix=[[]]):
     # Iterate through each row in the matrix
     for row in matrix:
         # Iterate through each element in the row and print it using str.format()
