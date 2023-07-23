@@ -4,6 +4,9 @@ def print_matrix_integer(matrix=[[]]):
     for row in matrix:
         # Iterate through each element in the row and print it using str.format()
         for e in row:
-            print("{:d}".format(e), end=' ' if e != row[-1] else '')
+            if e != row[-1]:
+                print("{:d}".format(e), end=' ')
+            else:
+                print("{:d}".format(e), end='')
         # Move to the next line after printing each row
         print()
