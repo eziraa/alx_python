@@ -6,7 +6,7 @@ def raise_exception_msg(message=""):
     try:
         raise CustomNameException(message)
     except CustomNameException:
-        print(message)
+        pass
 
 
 try:
