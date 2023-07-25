@@ -9,4 +9,4 @@ def safe_print_division(a, b):
         print('The number should both integer')
         return None
     finally:
-        print("Inside result: {}".format(a / b if b > 0 else None))
+        print("Inside result: {}".format(a / b if b != 0 else None))
