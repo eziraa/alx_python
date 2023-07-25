@@ -8,7 +8,6 @@ def print_arguments():
     num_arguments = len(arguments)
 
     # Print the number of arguments and the list of arguments
-    print(f"Number of argument(s): {num_arguments}", end=" ")
     print("argument" if num_arguments == 1 else "arguments", end="")
 
     if num_arguments == 0:
